@@ -1,0 +1,17 @@
+{
+    "name": "ryan0n/hello-composer",
+    "description": "A simple hello world composer package",
+    "type": "library",
+    "require": {},
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ryan Wright",
+            "email": "rywright@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"ryan0n\\HelloWorld\\": "src/"}
+    }
+}
