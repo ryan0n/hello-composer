@@ -13,5 +13,9 @@
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {"ryan0n\\HelloWorld\\": "src/"}
-    }
+    },
+    "repositories": [
+        {"type": "composer", "url": "https://repo.packagist.com/ryan0n/"},
+        {"packagist.org": false}
+    ]
 }
